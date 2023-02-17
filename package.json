@@ -1,0 +1,31 @@
+{
+  "name": "pdf-export-images",
+  "version": "1.0.9",
+  "description": "exports images from a pdf file to disk via CLI",
+  "main": "index.js",
+  "type": "commonjs",
+  "bin": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf",
+    "image",
+    "extract",
+    "export",
+    "cli",
+    "png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalehMahmood/pdf-export-images.git"
+  },
+  "author": "Marc Ablay <marc.ablay@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "font-converter": "^1.1.1",
+    "fontforge": "^0.0.4",
+    "pdfjs-dist": "^2.12.313",
+    "sharp": "^0.29.3"
+  }
+}
